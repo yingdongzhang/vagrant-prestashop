@@ -18,13 +18,13 @@ NOTE: The first time you run `vagrant up` it may take some time to download the 
 To access test site with sample data:
 
 + In your browser, head to 127.0.0.1:8080
-+ Magento CMS is accessed at 127.0.0.1:8080/admin1234
++ Prestashop CMS is accessed at 127.0.0.1:8080/admin1234
 + User: admin@myshop.com Password: password
 
 To access test site without sample data:
 
 + In your browser, head to 127.0.0.1:8081
-+ Magento CMS is accessed at 127.0.0.1:8081/admin1234
++ Prestashop CMS is accessed at 127.0.0.1:8081/admin1234
 + User: admin@myshop.com Password: password
 
 ### PrestaShop Plugin Development
