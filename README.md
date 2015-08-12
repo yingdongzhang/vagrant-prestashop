@@ -10,7 +10,7 @@ In order to run you will need to have VirtualBox and vagrant installed on your l
 
 NOTE: The first time you run `vagrant up` it may take some time to download the required baseboxes etc.
 
-#### Usage
+### Usage
 
 + Access the virtual machine directly using vagrant ssh
 + When you're done vagrant halt
@@ -40,4 +40,4 @@ PrestaShop DEV_MODE is enabled during provisioning.
 
 ### Known Issues
 
-Installing a Prestashop site is not supported prior to Prestashop 1.5.5.
+Installing a Prestashop site via command line is not supported prior to Prestashop 1.5.5.
