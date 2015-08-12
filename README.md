@@ -27,15 +27,7 @@ To access test site without sample data:
 + Prestashop CMS is accessed at 127.0.0.1:8081/admin1234
 + User: admin@myshop.com Password: password
 
-### PrestaShop Plugin Development
-
-### Vagrant Basebox
-The vagrant file used for this project can be found here: https://github.com/nurelm/prestashop_vagrant
-
-If you find any issues with this vagrant file please fork and issue a pull request with your fixes to help out the author.
-
-## Development Notes
-### Project Structure
+Database user: root, no password
 
 ### Config Changes
 PHP Error display is enabled during provisioning.
@@ -45,3 +37,7 @@ PrestaShop caching is disabled during provisioning.
 PrestaShop Template Force Compilation is enabled during provisioning.
 
 PrestaShop DEV_MODE is enabled during provisioning.
+
+### Known Issues
+
+Installing a Prestashop site is not supported prior to Prestashop 1.5.5.
